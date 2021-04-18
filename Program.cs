@@ -29,7 +29,7 @@ namespace Screamer
                 Console.ReadKey(); 
                 Environment.Exit(-1);
             }
-            Console.Write("\nPor favor me diga o que está sente da maneira mais profunda possível..: ");
+            Console.Write("\nPor favor me diga o que está sentindo da maneira mais profunda possível..: ");
             feeling= Console.ReadLine();
             bool feelingCheck= Int32.TryParse(feeling, out numericalFeeling);
             if (feelingCheck)
